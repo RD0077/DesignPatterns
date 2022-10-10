@@ -10,7 +10,7 @@ public class SingletonThreadSafeBillPugh {
 		private static final SingletonThreadSafeBillPugh INSTANCE=new SingletonThreadSafeBillPugh(); 
 	}
 	
-	private static SingletonThreadSafeBillPugh getInstance() {
+	public static SingletonThreadSafeBillPugh getInstance() {
 		return SingletonHolder.INSTANCE;
 	}
 }
