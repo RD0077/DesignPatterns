@@ -20,7 +20,7 @@ public class SingletonThreadSafe {
 		}
 		return INSTANCE;
 	}
-
+	//Double checking because of multithreaded environment
 	public static SingletonThreadSafe getInstanceDoubleChecking() {
 		if (INSTANCE == null) {
 			synchronized (SingletonThreadSafe.class) {
