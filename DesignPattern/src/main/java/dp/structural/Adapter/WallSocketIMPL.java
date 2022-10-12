@@ -1,4 +1,4 @@
-package dp.structural;
+package dp.structural.Adapter;
 
 public class WallSocketIMPL implements WallSocket {
 

@@ -1,4 +1,4 @@
-package dp.structural;
+package dp.structural.Adapter;
 
 public class Adapter {
 	//It is one of the structural design pattern
